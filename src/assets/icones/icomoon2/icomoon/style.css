@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?3q34c5');
+  src:  url('fonts/icomoon.eot?3q34c5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3q34c5') format('truetype'),
+    url('fonts/icomoon.woff?3q34c5') format('woff'),
+    url('fonts/icomoon.svg?3q34c5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-varejo:before {
+  content: "\e91e";
+  color: #fff;
+}
+.icon-servicos:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-transporte:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon-industria:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-AUDITOR:before {
+  content: "\e914";
+}
+.icon-ACADEMY:before {
+  content: "\e915";
+}
+.icon-MOBILE:before {
+  content: "\e916";
+}
+.icon-FINTECH:before {
+  content: "\e917";
+}
+.icon-DFE:before {
+  content: "\e918";
+}
+.icon-CERTIFICADOS:before {
+  content: "\e919";
+}
+.icon-success:before {
+  content: "\e913";
+}
+.icon-up-arrow:before {
+  content: "\e912";
+}
+.icon-files:before {
+  content: "\e910";
+}
+.icon-laptop:before {
+  content: "\e91b";
+}
+.icon-cloud:before {
+  content: "\e91c";
+}
+.icon-bell:before {
+  content: "\e91d";
+}
+.icon-money:before {
+  content: "\e90f";
+}
+.icon-teamwork:before {
+  content: "\e911";
+}
+.icon-bus:before {
+  content: "\e90e";
+}
+.icon-delivery:before {
+  content: "\e90d";
+}
+.icon-apartments:before {
+  content: "\e900";
+}
+.icon-atualizacao:before {
+  content: "\e901";
+}
+.icon-box:before {
+  content: "\e902";
+}
+.icon-brasil:before {
+  content: "\e903";
+}
+.icon-calculadora:before {
+  content: "\e904";
+}
+.icon-cashier:before {
+  content: "\e905";
+}
+.icon-emblema:before {
+  content: "\e906";
+}
+.icon-fast-delivery:before {
+  content: "\e907";
+}
+.icon-integracao:before {
+  content: "\e908";
+}
+.icon-monitor:before {
+  content: "\e909";
+}
+.icon-shipped:before {
+  content: "\e90a";
+}
+.icon-suporte:before {
+  content: "\e90b";
+}
+.icon-tag:before {
+  content: "\e90c";
+}

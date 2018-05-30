@@ -1,0 +1,14 @@
+
+@media(max-width:767px) {
+  .header-principal .image-middle {
+    width: 100%;
+    margin: auto;
+    padding-top: 200px;
+  }
+  .header-principal .info-bottom {
+    width: 40px;
+    margin-top: auto;
+    margin-bottom: 100px;
+  }
+}
+

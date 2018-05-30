@@ -1,0 +1,198 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+/*============================================================== 
+ You can write your style here and overwrite our style
+ ============================================================== */
+
+@font-face {
+  font-family: "GothamRnd-Book";
+  font-style: normal;
+  font-weight: 400;
+  src: local("GothamRnd-Book"), url(./fonts/gotham/GothamRnd-Book.otf) format("opentype")
+}
+
+@font-face {
+  font-family: "GothamRnd-Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: local("GothamRnd-Medium"), url(./fonts/gotham/GothamRnd-Medium.otf) format("opentype")
+}
+
+@font-face {
+  font-family: "GothamRnd-Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: local("GothamRnd-Bold"), url(./fonts/gotham/GothamRnd-Bold.otf) format("opentype")
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3e4555;
+  font-family: "GothamRnd-Book", sans-serif;
+}
+
+/* TOP BAR */
+
+.h5-nav-bar .navbar-nav .nav-link {
+  font-family: "GothamRnd-Book", sans-serif !important;
+}
+
+/* END TOP BAR */
+
+/* HEADER */
+
+.imagem-central {
+  margin: 0 auto;
+  margin-top: 200px;
+  max-width: 80%;
+}
+
+
+h1.title {
+  font-size: 122px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 130px;
+}
+
+
+/* END HEADER */
+
+/* FEATURE 16 */
+
+.wrap-feature-16 [class*=col-] {
+  padding: 80px 35px;
+}
+
+.wrap-feature-16 .with-bg {
+  width: 100%;
+  min-height: 200px;
+  background-image: url(../images/home/video.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrap-feature-16 .with-text {
+  max-width: 500px;
+  /* margin-left: 80px; */
+}
+
+.feature16 .with-text h2 {
+  font-family: "GothamRnd-Medium", sans-serif;
+  font-size: 24px;
+}
+
+.feature16 .wrap-feature-16 .play {
+  position: absolute;
+  left: 403px;
+  margin-top: 220px;
+}
+
+.feature16 .wrap-feature-16 .play img {
+  width: 50%;
+}
+
+/* END FEATURE 16 */
+
+/* FEATURE 3 */
+
+.feature3 h1 {
+  font-family: "GothamRnd-Medium", sans-serif;
+  font-size: 25px;
+}
+
+.feature3 .linking {
+  font-family: "GothamRnd-Medium", sans-serif;
+}
+
+.wrap-feature3-box .card-body {
+  padding: 40px;
+}
+
+.wrap-feature3-box .card-body .icon-space {
+  padding: 0px 40px 20px 0px;
+}
+
+/* END FEATURE 3 */
+
+/* BLOG */
+
+.blog-home1 h1 {
+  font-family: "GothamRnd-Medium", sans-serif;
+  font-size: 25px;
+}
+
+/* END BLOG */
+
+/* FOOTER */
+
+.footer2 {
+  padding: 60px 0;
+}
+
+.footer2 .f2-topbar {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.footer2 .f2-middle {
+  padding-top: 40px;
+}
+
+.footer2 .link {
+  color: #8d97ad;
+  padding: 10px 15px 10px 0;
+}
+
+.footer2 .general-listing li a i {
+  font-size: 9px;
+  margin-right: 10px;
+}
+
+.footer2 .info-box .d-flex {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.footer2 .subscribe-box {
+  background: #36a9e1;
+  padding: 25px;
+}
+
+.footer2 .subscribe-box .form-control {
+  background: transparent;
+  padding: 10px 0;
+  border: 0px;
+  border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+.footer2 .subscribe-box .form-control:focus {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* END */
+
+.eventos {
+  justify-content: center;
+}
+
+.btn-white {
+  background: #ffffff;
+}
+
+.all-center {
+  display: flex !important;
+  margin: auto !important;
+}
